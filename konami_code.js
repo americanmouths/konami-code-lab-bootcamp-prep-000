@@ -3,15 +3,18 @@ let index = 0;
 
 function init() {
   const body = document.querySelector('body')
+  
   body.addEventListener('keydown', function(e) {
     const key = parseInt(e.detail || e.which);
+    
     if (key === code[index]) {
      index++;
+     
     if (key === code.length) {
       alert('KONAMI!');
+      
     }
-  } else {
-    index = 0;
-  }
+  } else {index = 0;}
+  
    })
 }
