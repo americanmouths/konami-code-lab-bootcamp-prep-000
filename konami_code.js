@@ -15,4 +15,3 @@ function init() {
   }
    })
 }
-console.log(e.detail);
