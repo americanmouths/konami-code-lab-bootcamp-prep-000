@@ -9,5 +9,5 @@ function init(e) {
      alert('Congrats');
      console.log(e.detail);
      }
-   }
+   })
 }
