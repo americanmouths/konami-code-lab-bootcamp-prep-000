@@ -9,7 +9,6 @@ function init() {
      index++;
     if (key === code.length) {
       alert("Congrats!");
-      index = 0;
     }
   } else {
     index = 0;
