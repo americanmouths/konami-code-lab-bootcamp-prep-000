@@ -8,7 +8,7 @@ function init() {
     if (key === code[index]) {
      index++;
 
-    if (key === code.length) {
+    if (index === code.length) {
       alert('KONAMI!');
       index = 0;
 
